@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Services - Your Trusted Partner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Welcome Popup -->
+    <div class="popup-overlay"></div>
+    <div class="welcome-popup">
+        <h2>Welcome to Home Services</h2>
+        <p>Your trusted partner for all home maintenance needs</p>
+        <a href="#services" class="button">Explore Services</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-effect">
+        <div class="logo text-gradient">HomeServices</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Professional Home Services</h1>
+            <p>Expert solutions for all your home maintenance needs. Quality service, guaranteed satisfaction.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="button">Explore Services</a>
+                <a href="#contact" class="button button-secondary">Contact Us</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="text-gradient">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="repair-icon">
+                    <i class="fas fa-tools"></i>
+                    <div class="mechanical-parts">
+                        <div class="mechanical-part"></div>
+                        <div class="mechanical-part"></div>
+                        <div class="mechanical-part"></div>
+                        <div class="mechanical-part"></div>
+                    </div>
+                    <div class="gear"></div>
+                </div>
+                <h3>Repairs</h3>
+                <p>Professional repair services for your home appliances and equipment.</p>
+            </div>
+            <div class="service-card">
+                <div class="cleaning-icon">
+                    <i class="fas fa-broom"></i>
+                    <div class="sweep-trail"></div>
+                    <div class="dust-particle"></div>
+                    <div class="dust-particle"></div>
+                    <div class="dust-particle"></div>
+                    <div class="dust-particle"></div>
+                    <div class="dust-particle"></div>
+                </div>
+                <h3>Cleaning</h3>
+                <p>Professional cleaning services for your home and office.</p>
+            </div>
+            <div class="service-card">
+                <div class="painting-icon">
+                    <i class="fas fa-paint-roller"></i>
+                </div>
+                <h3>Painting</h3>
+                <p>Professional painting services for your home's interior and exterior.</p>
+            </div>
+            <div class="service-card">
+                <div class="plumbing-icons">
+                    <i class="fas fa-wrench"></i>
+                    <i class="fas fa-tint"></i>
+                    <div class="water-splash"></div>
+                </div>
+                <h3>Plumbing</h3>
+                <p>Expert plumbing services for repairs, installations, and maintenance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="text-gradient">About Us</h2>
+        <div class="about-content">
+            <div class="about-text glass-effect animate-on-scroll">
+                <p>We are a team of professional service providers dedicated to making your home maintenance hassle-free. With years of experience and a commitment to quality, we ensure the best service for your home.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat border-gradient animate-on-scroll">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-gradient counter">500+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat border-gradient animate-on-scroll">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="text-gradient counter">1000+</h3>
+                    <p>Services Completed</p>
+                </div>
+                <div class="stat border-gradient animate-on-scroll">
+                    <div class="stat-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 class="text-gradient counter">50+</h3>
+                    <p>Expert Team Members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="text-gradient">Contact Us</h2>
+        <div class="contact-container glass-effect">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" required>
+                    <label for="phone">Your Phone</label>
+                </div>
+                <div class="form-group">
+                    <select id="service" required>
+                        <option value="">Select a Service</option>
+                        <option value="repairs">Repairs</option>
+                        <option value="cleaning">Cleaning</option>
+                        <option value="painting">Painting</option>
+                        <option value="plumbing">Plumbing</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="button button-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="text-gradient">HomeServices</h3>
+                <p>Your trusted partner for home maintenance. We provide professional and reliable services to make your home maintenance hassle-free.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> hackerkranthidangersmiley@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 040-563144</p>
+                <p><i class="fas fa-map-marker-alt"></i> RKS Home Services, Near Siddhartha institute of technology and sciences, Narapally, Ghatkesar, 500088</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 HomeServices. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
